@@ -1,0 +1,62 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #111111;
+}
+
+main {
+    margin: auto;
+    min-width: 216px;
+    max-width: 617px;
+}
+
+p {
+    text-align: center;
+    color: #074EE8;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #111111;
+}
+
+tr {
+    background: #aaa;
+}
+
+ul {
+    padding: 8px;
+    background: #aaa;
+}
+
+.td-nome, .td-nickname, 
+.td-email, .td-phone, 
+.td-bday, .td-age, 
+.td-linkedin, .td-github, 
+.cert-list, .td-tname, 
+.td-institution, .td-graduation {
+    padding: 8px;
+    text-decoration: underline;
+    color: #074EE8;
+}
+
+.button-new {
+    float: right;
+    padding: 0px 12px;
+    gap: 6px;
+    width: 81px;
+    height: 40px;
+    border: 0.5px solid #FFFFFF;
+    background: #074EE8;
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
